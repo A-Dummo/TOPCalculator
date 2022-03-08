@@ -40,7 +40,9 @@ function doNumstuff(display, dataKeyValue) {
 
         case "=":
             let arrayNums = splitArray(display.textContent);
-            display.textContent = addArrayNums(arrayNums);
+            let sum = addArrayNums(arrayNums);
+            if (isNaN(sum)) sum = "U stupid";
+            display.textContent = sum;
             break;
 
         default:
