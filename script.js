@@ -13,3 +13,24 @@ function multiply(a, b) {
 function divide(a, b) {
     return a / b;
 }
+
+function operate(operator, a, b) {
+    switch(operator) {
+        case "+":
+            return a + b;
+
+        case "-":
+            return a - b;
+        
+        case "*":
+            return a * b;
+        
+        case "/":
+            return a / b;
+    }
+}
+
+
+// init
+
+//let buttons = document.querySelectorAll("");

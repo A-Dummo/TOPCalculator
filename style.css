@@ -1,7 +1,28 @@
+html {
+    height: 100%
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+/*
+#calculator {
+    min-width: 50%;
+}
+*/
 #display {
     background-color: aquamarine;
+    text-align: right;
 }
 
 #buttons > * {
     background-color: bisque;
+    text-align: center;
+    min-width: 25%;
+}
+
+#buttons {
+    display: flex;
+    flex-wrap: wrap;
 }
